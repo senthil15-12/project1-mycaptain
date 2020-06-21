@@ -6,25 +6,41 @@
 
 #program 1
 r=float(input("input the radius of the circle :"))
-a= 3.14*r*r
+a= (22/7)*r*r
 print("The area of the circle with radius r is:",r)
 print(a)
-
+output:
+input the radius of the circle :1.1
+The area of the circle with radius r is: 1.1
+3.8028571428571434
 
 # In[ ]:
 
 
 #program 2
-filename=input("Enter a filename with extension")
+filename=str(input("Enter a filename with extension"))
 import numpy as n
 array1=n.array( filename )
-while (array1!="."):
-    array1-=1
-    if(array1!="."):
+leng=len(filename)
+while (leng>0):
+    leng=leng-1
+    if(leng!="."):
         print(array1)
     else:
             break
 print(array1)
+output:
+    sen.xx
+sen.xx
+sen.xx
+sen.xx
+sen.xx
+sen.xx
+sen.xx
+In [ ]:
+
+
+​
 
 
 # In[10]:
